@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a2034e1513.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="img/logo2.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>I'm Gamer</p>
+                    <h1>Hi, I'm <span>Hasan Sadili</span><br>I'm From Indonesia</h1>
+                </div>
+            </div>
+        </div>
+        <!--------------About------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="img/Hasan3.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I have studied in IT for more than 3 years. I always experience complaints in learning the
+                             IT field. With my strong desire to study technology, I always divide my time effectively
+                            to study and work.I have expertise in IT as a web developer.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Grinding</span><br>Any Game MMORPG</li>
+                                <li><span>Analist Market</span><br>Special (XAU/USD)</li>
+                                <li><span>SellerGold</span><br>At Game MMORPG Dragon Nest Sea</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2017-2020</span><br>PT GDN Sejarahtera</li>
+                                <li><span>2020-2021</span><br>Winner 2nd At Tournament EvosFams Season 4</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2014</span><br>MI Ciwahangan</li>
+                                <li><span>2017</span><br>SMPN 2 Ciamis</li>
+                                <li><span>2020</span><br>SMK LPS 2 Ciamis</li>
+                                <li><span>2024</span><br>Universitas Perjuangan Tasikmalaya</li>
+                            </ul>
+                        </div>
+ 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------service-------------->
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-dragon"></i>
+                        <h2>Service Leveling1-95</h2>
+                        <p>can be on request, want a full yellow mission or via goblin</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-dragon"></i>
+                        <h2>Service Nest LB15-FR</h2>
+                        <p>one nest is usually finished within 2-3 minutes</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-dragon"></i>
+                        <h2>Service GUDNHC</h2>
+                        <p>just kill yourself then wait for it to finish about 50-60 minutes</p>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+        <!----------Portfolio--------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="img/work1.png">
+                        <div class="layer">
+                            <h3>Trading Gold</h3>
+                            <p>I sell or buy gold in the Dragon Nest Sea Game.
+                                through the Discord App</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/work3.png">
+                        <div class="layer">
+                            <h3>Cryptocurrency</h3>
+                            <p>I sell or buy crypto tokens globally.
+                                through the indodax platform</p>
+                    </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/work6.png">
+                        <div class="layer">
+                            <h3>Market Analysis Global</h3>
+                            <p>specialized in analyzing the gold market (XAUUSD)</p>
+                        </div>
+                    </div>
+        </div>
+        <a href="" class="btn">See More</a>
+        <!----------Portfolio--------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>hasanspro01@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>089662471001</p>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/hasan.sadili.3367"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/hasansdl_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://discord.gg/6E7aagB4"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>Hasan Website Portfolio</p>
+            </div>
+               
+               
+
+        <script>
+
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+            
+        </script>
+
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+            function closemenu(){
+                sidemeu.style.right = "-200px";
+            }
+            
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyIRonogu45S1Ye93LKHIXX6GubqIOHuhSUfdnR245y2bc3BXJVlkHHQciJn_P8yjXVmg/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg= document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },1000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
